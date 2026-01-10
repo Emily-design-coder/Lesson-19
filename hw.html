@@ -7,18 +7,26 @@
 
 <body>
     <h1>Calculator</h1>
-    <p id="p1"></p>
-    <script>
-        var a, b, c, d, e, f;
-        a = 3;
-        b = 9;
-        c = 1;
-        d = 4;
-        e = 8;
-        f = e-d*(a + c)/ e + b
-        document.getElementById("p1").innerHTML = "Result of expression 8-4*(3+1)/8+9 is " + f;
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+<script>
+    var a, b, c, d, e, f;
+    a = 10;
+    b = 2;
+
+    c = a + b;
+    d = a - b;
+    e = a * b;
+    f = a / b;
     
-    </script>
+    document.getElementById(add).innerHTML = "The added value is:" + c;
+    document.getElementById(sub).innerHTML = "The subtracted value is:" + d;
+    document.getElementById(mul).innerHTML = "The multiplied value is:" + e;
+    document.getElementById(div).innerHTML = "The divided value is:" + f;
+    
+</script>
 </body>
 
 </html>

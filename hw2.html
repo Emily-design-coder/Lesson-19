@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My page</title>
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <p id="add"></p>
+        <p id="sub"></p>
+        <p id="mul"></p>
+        <p id="div"></p>
+        <script>
+            var x, y, z, i, j, k;
+            x = 7;
+            y = 10;
+            z = x + y;
+            i = x - y;
+            j = x * y;
+            k = x / y;
+            document.getElementById("add").innerHTML = "Result of  the added expression is " + z;
+            document.getElementById("sub").innerHTML = "Result of  the subtracted expression is " + i;
+            document.getElementById("mul").innerHTML = "Result of  the multiplied expression is " + j;
+            document.getElementById("div").innerHTML = "Result of  the divided expression is " + k;
+        </script>
+    </body>
+</html>
